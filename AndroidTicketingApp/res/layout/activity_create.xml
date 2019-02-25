@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Log_in"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/First_Name"
+        />
+
+    <EditText
+        android:id="@+id/etFirst_Name"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:bufferType="editable"
+        android:inputType="text"
+        android:padding="10dp" />
+
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Last_Name"
+        />
+
+    <EditText
+        android:id="@+id/etLast_Name"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:bufferType="editable"
+        android:inputType="text"
+        android:padding="10dp" />
+
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/User_Name"
+        />
+
+    <EditText
+        android:id="@+id/etUser_Name"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:bufferType="editable"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Password"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:bufferType="editable"
+        android:inputType="numberPassword"
+        android:padding="10dp" />
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <RadioButton
+            android:id="@+id/btMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Male" />
+
+        <RadioButton
+            android:id="@+id/btFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Female" />
+        
+    </RadioGroup>
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000000"
+        />
+
+
+        <Button
+            android:id="@+id/btCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/CreateAccount" />
+
+        
+
+</LinearLayout>

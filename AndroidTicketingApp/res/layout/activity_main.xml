@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="136dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <Button 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Create"
+                android:id="@+id/btCreate"
+                android:padding="20dp"
+                android:background="#99FF99"
+                />
+            <Button 
+                android:layout_width="match_parent"
+                android:background="#99FF99"
+                android:layout_height="wrap_content"
+                android:text="Need Help"
+                android:id="@+id/btLogin"
+                android:padding="20dp"
+                />
+            <Button 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Login"
+                android:padding="20dp"
+                android:id="@+id/btLogin"
+                android:background="#99FF99"
+                />
+            <Button 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:id="@+id/btAbout"
+                android:padding="20dp"
+                android:background="#99FF99"
+                />
+            <Button 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open Map"
+                android:background="#99FF99"
+                android:id="@+id/btMap"
+                android:padding="20dp"
+                />
+            <Button 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rate our App"
+                android:id="@+id/btRate"
+                android:padding="20dp"
+                android:background="#99FF99"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/horizontalScrollView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/buyticket" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Swipe the buttons to the left to view other options" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/swipe" />
+
+</RelativeLayout>

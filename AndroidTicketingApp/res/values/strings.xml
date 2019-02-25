@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Ticketing App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text">Welcome to Android Ticketing App</string>
+    <string name="Create">Create Account</string>
+    <string name="Login">Log in</string>
+    <string name="Log_in">Create Account</string>
+    <string name="First_Name">First Names</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="User_Name">User Name</string>
+    <string name="Password">Password</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="imagebutton">Create</string>
+    <string name="CreateAccount">Create</string>
+    <string name="LoginHeading">Log in</string>
+    <string name="LoginUserName">User Name</string>
+    <string name="LoginPassword">Password</string>
+    <string name="PasswordHint">Enter Password</string>
+    <string name="UsernameHint">Enter Username</string>
+    <string name="Login_Button">Log in</string>
+    <string name="ForgotPassword">Forgot your password?</string>
+    <string name="Logoff">Log off</string>
+    <string name="Exit">Exit</string>
+    <string name="Register">Register</string>
+    <string name="Loading">Loading</string>
+    <string name="LoadingTitle">Android Public ticketing App</string>
+    <string name="copy"> 2016</string>
+    <string name="Splash">Welcome Screen</string>
+    <string name="purchase">Buy Tickets</string>
+    
+
+    
+</resources>
